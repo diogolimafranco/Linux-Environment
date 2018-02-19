@@ -45,6 +45,7 @@ https://www.google.pt/intl/pt-PT/chrome/
 
 # Configure Apache
 | Alter root folder to my workspace in Desktop
+
 ln -s /home/diogo/Área\ de\ Trabalho/ /home/diogo/Desktop
 mkdir /home/diogo/Desktop/projects
 sudo chmod 777 -R /home/diogo/Desktop/projects
