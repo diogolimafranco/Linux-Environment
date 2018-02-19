@@ -47,9 +47,14 @@ https://www.google.pt/intl/pt-PT/chrome/
 | Alter root folder to my workspace in Desktop
 
 ln -s /home/diogo/Área\ de\ Trabalho/ /home/diogo/Desktop
+
 mkdir /home/diogo/Desktop/projects
+
 sudo chmod 777 -R /home/diogo/Desktop/projects
+
 sudo subl /etc/apache2/apache2.conf
+
 sudo subl /etc/apache2/sites-available/000-default.conf || sudo vim /etc/apache2/sites-available/default.conf
+
 service apache2 restart
 
