@@ -58,3 +58,23 @@ sudo subl /etc/apache2/sites-available/000-default.conf || sudo vim /etc/apache2
 
 service apache2 restart
 
+# Sublime Text Config
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"draw_minimap_border": true,
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 10,
+	"line_padding_top": 10,
+    "tab_size": 2,
+	"theme": "Material-Theme-Palenight.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
+}
